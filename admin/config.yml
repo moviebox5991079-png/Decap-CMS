@@ -12,7 +12,8 @@ collections:
     files:
       - label: "Stream Data (data.json)"
         name: "data"
-        file: "data.json" # Agar file kisi folder mein hai toh path theek kar lein (e.g., "public/data.json")
+        # file: "data.json"    # Agar file kisi folder mein hai toh path theek kar lein (e.g., "public/data.json")
+        file: "public/data.json"
         fields:
           # --- Global Settings ---
           - label: "Global Is Live"
