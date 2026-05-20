@@ -2,6 +2,10 @@ backend:
   name: git-gateway
   branch: main # Aapki repo ki main branch ka naam
 
+# ---> YEH 2 LINES ADD KARNI HAIN <---
+media_folder: "images"
+public_folder: "/images"
+
 collections:
   - name: "live_data"
     label: "Live Stream Manager"
